@@ -1,9 +1,10 @@
 name: 10 Minute Schedule Test
 
 on:
-  schedule:
-    - cron: "*/10 * * * *"   # Runs every 10 minutes (UTC)
-  workflow_dispatch:         # Allows manual trigger
+  push:
+    branches:
+      - main   # Runs when code is pushed to main branch
+  workflow_dispatch:   # Optional: allows manual run also
 
 jobs:
   test-schedule:

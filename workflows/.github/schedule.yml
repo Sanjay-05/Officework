@@ -2,8 +2,8 @@ name: 10 Minute Schedule Test
 
 on:
   push:
-    branches:
-      - main   # Runs when code is pushed to main branch
+    branches: [main]
+
   workflow_dispatch:   # Optional: allows manual run also
 
 jobs:

@@ -2,8 +2,8 @@ name: 10 Minute Schedule Test
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # Runs every 10 minutes (UTC)
-  workflow_dispatch:         # Allows manual trigger
+    - cron: "0 12 * * 4"   
+  workflow_dispatch:         
 
 jobs:
   test-schedule:

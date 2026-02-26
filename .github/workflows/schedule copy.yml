@@ -2,7 +2,7 @@ name: 10 Minute Schedule Test
 
 on:
   schedule:
-    - cron: "0 12 * * 4"   
+    - cron: "0 11 * * 4"   
   workflow_dispatch:         
 
 jobs:
